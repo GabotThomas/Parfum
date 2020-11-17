@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}   
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+h1{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: inherit;
+}
+
+/*menu*/
+header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.header{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: calc(100% - 50px);
+    padding-top:50px ;
+    margin-bottom: 50px;
+}
+
+.header .menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header .menu h1{
+    color: white;
+}
+.header .menu h2{
+    color: white;
+}
+.bouton{
+    color: white;
+    padding: 7px 20px;
+    border: 1px solid #fff;
+}
+
+.network{
+    padding-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.network h4{
+    color: white;
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+.network svg{
+height: 25px;
+margin: 0 7px;
+}
+.network svg path{
+    fill: white;
+}
+
+.carrousel{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.banner div{
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.b1{
+    background: url(../IMG/pexels-mareefe-5378789.jpg) no-repeat 0 center;
+    background-size: cover;
+}
+.b2{
+    background: url(../IMG/pexels-mareefe-1307445.jpg) no-repeat 0 center;
+    background-size: cover;
+}
+.b3{
+    background: url(../IMG/pexels-mareefe-672051.jpg) no-repeat 0 center;
+    background-size: cover;
+}
+.b4{
+    background: url(../IMG/pexels-mareefe-932577.jpg) no-repeat 0 center;
+    background-size: cover;
+}
+
+
+.owl-dots{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    background: transparent;
+}
+
+/*Main*/
+main{
+width: 100%;
+}
+.liste{
+    width: 100%;
+}
+.liste .contain{
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+    overflow: hidden;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pres{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    margin-top: 30px;
+    width: 50%;
+}
+.pres h1{
+    
+}
+.pres p{
+    text-align: justify;
+    color: grey;
+}
+.pres a{
+    color: #000;
+    text-decoration: underline;
+}
